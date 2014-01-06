@@ -42,6 +42,7 @@ for dirpath, dirnames, filenames in os.walk('caldavclientlibrary'):
 
 plist = dict(NSMainNibFile="WebDAVBrowser")
 setup(
+    name='caldavclientlibrary',
     app=["caldavclientlibrary/ui/WebDAVBrowser.py"],
     packages=packages,
     data_files=data_files,
